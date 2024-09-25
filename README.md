@@ -1,9 +1,20 @@
+# Task Management App
+
+## Overview
+
+A simple task management application built with Vue.js. Users can create, update, delete, and manage tasks with status tracking and due dates.
+
+## Technologies
+
+- **Vue.js**
+- **Pinia** (State Management)
+- **Vue Router**
+- **Tailwind CSS**
+- **Laravel**
+- **Sanctum** (authentication)
+- **SQLite**
 
 ## Recommended IDE Setup
-
-# Vue 3 + Laravel 11 + SQLite Project
-
-## vue Project Setup
 
 ```sh
 npm install
