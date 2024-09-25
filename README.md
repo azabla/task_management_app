@@ -1,11 +1,9 @@
-# laravel_api_vue
-
 
 ## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+# Vue 3 + Laravel 11 + SQLite Project
 
-## Project Setup
+## vue Project Setup
 
 ```sh
 npm install
@@ -21,4 +19,23 @@ npm run dev
 
 ```sh
 npm run build
+```
+
+## laravel Project Setup
+
+```sh
+composer install
+
+```
+
+### migrate the database
+
+```sh
+php artisan migrate
+```
+
+### Compile and Minify for Production 
+
+```sh
+php artisan serve
 ```
